@@ -1,4 +1,4 @@
-let btn = document.querySelector('#btn_enviar);
+let btn = document.querySelector('#btn_enviar');
 
 btn.addEventListener('click',enviarCorreo);
 
