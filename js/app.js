@@ -4,8 +4,8 @@ btn.addEventListener('click',enviarCorreo);
 
 function enviarCorreo(){
     Swal.fire(
-        'Good job!',
-        'You clicked the button!',
+        'Correo enviado con exito!',
+        'Nos comunicaremos a la brevedad gracias!',
         'success'
       )
 }
