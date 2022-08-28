@@ -8,4 +8,4 @@ function enviarCorreo(){
         'Nos comunicaremos a la brevedad gracias!',
         'success'
       )
-}
+};
