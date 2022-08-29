@@ -218,6 +218,7 @@ $fuenteSecundaria :'Anton', sans-serif;
     @media (max-width:760px){
      width: 100%;
      height: auto;
+     margin-top: 2rem;
      
     }
     h2 
@@ -609,16 +610,16 @@ $fuenteSecundaria :'Anton', sans-serif;
 .templatemo_contactform .btn-primary:hover {
     background: #a6d82c;
 }
-.header .navegador_movil 
+.navegador_movil 
 {
     display: none;
     transition: all .4s linear;
     @media(max-width:760px){
         display: block;
-        width: 22rem;
+        width:100%;
         height: 3rem;
-        margin-left: -1.7rem;
-        margin-top: -10rem;
+
+        margin-top: 0rem;
         background-color: #282828;
         h2 
         {
@@ -630,12 +631,12 @@ $fuenteSecundaria :'Anton', sans-serif;
         }
     }
 }
-.header .navegador_movil:hover > .navegador_movil_links {
+.navegador_movil:hover > .navegador_movil_links {
     display: flex;
 }
-.header .navegador_movil .navegador_movil_links 
+.navegador_movil .navegador_movil_links 
 {
-    width: 22rem;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -659,7 +660,7 @@ $fuenteSecundaria :'Anton', sans-serif;
     }
     
 }
-.header .navegador_movil .navegador_movil_links a:hover 
+ .navegador_movil .navegador_movil_links a:hover 
 {
   background-color: #FF5733;
   color: #ffffff;
@@ -676,7 +677,8 @@ $fuenteSecundaria :'Anton', sans-serif;
     background-color: #1e1e1e;
     @media(max-width:760px){
         text-align: center;
-        margin-top: -3rem;
+        height: 12rem;
+       
     }
     ion-icon 
     {
@@ -690,6 +692,9 @@ $fuenteSecundaria :'Anton', sans-serif;
         color: #ffffff;
         font-family: $fuentePrincipal;
         text-transform: uppercase;
+        @media(max-width:760px){
+           font-size: 1rem;
+        }
         
     }
     h2 
@@ -730,8 +735,10 @@ $fuenteSecundaria :'Anton', sans-serif;
     background-size: cover;
     background-position: center;
     @media(max-width:760px){
-        height: 30rem;
-       overflow: hidden;
+        height: 35rem;
+        overflow: hidden;
+       
+       
     }
     
 }
@@ -740,35 +747,33 @@ $fuenteSecundaria :'Anton', sans-serif;
      
     display: none;
     background-color: #1e1e1e;
-    height: 2.5rem;
-    margin-top:4.5rem;
+    height: 3rem;
     @media(max-width:760px){
         display: block;
-        width: 20rem;
-        margin-top: 18rem;
-        
+        width: 100%;
         position: absolute;
+
     }
 
     h2 
     {
         font-size: 2rem;
+        color: #ffffff;
     }
+    
 }
-.header_contacto .navegador_movil_contacto:hover > .navegador_movil_links_contacto 
-{
-    display: block;
-}
+
 .navegador_movil_contacto .navegador_movil_links_contacto 
 {
    @media(max-width:760px){
     width: 100%;
-    height: 15rem;
-    margin-top: -1rem;
-    position: absolute;
+    height: 13rem;
+    margin-top: 0rem;
+   position: absolute;
     background-color: #1e1e1e;
     line-height: 3rem;
     display: none;
+    
  
  
     a 
@@ -780,6 +785,7 @@ $fuenteSecundaria :'Anton', sans-serif;
         display: flex;
         flex-direction: column;
            align-items: center;
+           transition: all .4s linear;
     }
     ion-icon 
     {
@@ -791,9 +797,20 @@ $fuenteSecundaria :'Anton', sans-serif;
 
 
 }
-.container_contacto 
+.navegador_movil_links_contacto a:hover 
 {
-    
+    background-color: #FF5733;
+    color: #ffffff;
+}
+.navegador_movil_contacto:hover .navegador_movil_links_contacto 
+{
+    display: block;
+}
+.container_contacto 
+{  
+     
+     width: 100%;
+     height: auto;
     @media(max-width:760px){
         width: 100%;
         height: auto;
@@ -812,11 +829,19 @@ $fuenteSecundaria :'Anton', sans-serif;
     align-items: center;
     width: 100%;
     margin: 3rem auto;
+    @media(max-width:760px){
+       width: 100%;  
+       padding-top: 3rem;
+       
+    }
     h2 
     {
         font-family: $fuentePrincipal;
         font-size: 3rem;
         text-align: center;
+        @media(max-width:760px){
+           font-size: 2rem;
+        }
     }
 
     img 
@@ -840,6 +865,12 @@ $fuenteSecundaria :'Anton', sans-serif;
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
+        @media(max-width:760px){
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+        }
         input
         {
             margin-top: 1rem;
@@ -847,19 +878,38 @@ $fuenteSecundaria :'Anton', sans-serif;
             height: 2.5rem;
             border: none;
             border-bottom: .1rem solid #7e7e7e;
+            @media(max-width:760px){
+              width: 20rem;
+            }
         }
         textarea
         {
             margin-top: 1rem;
-            margin-bottom: 1rem
+            margin-bottom: 1rem;
+            @media(max-width:760px){
+                   width: 20rem; 
+            }
         }
         
+    }
+}
+#btn_enviar
+{
+    @media(max-width:760px){
+        width: 20rem;   
     }
 }
 .title_central_contacto{
     width: 100%;
     height: 30rem;
     display: flex;
+    @media(max-width:760px){
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: -8rem;
+    }
 }
 .title_central_contacto .title_central_imagen_contacto,
 .title_central_contacto .title_central_titulo_contacto 
@@ -909,6 +959,10 @@ $fuenteSecundaria :'Anton', sans-serif;
         height: 15rem;
        margin-top: 3rem;
        margin-left: 1rem;
+       @media(max-width:760px){
+          width: 10rem;
+          height: 10rem;   
+    }
       
     }
 
