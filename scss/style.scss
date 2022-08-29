@@ -13,6 +13,9 @@ $fuenteSecundaria :'Anton', sans-serif;
     max-width: 80rem;
     height: auto;
     margin: 0 auto;
+    @media (max-width:760px){
+        width: 100%;
+    }
     
 }
 
@@ -30,6 +33,10 @@ $fuenteSecundaria :'Anton', sans-serif;
     background-image:url('../img/istockphoto-174978843-612x612.jpg');
     background-size: cover;
     background-position: center;
+    @media (max-width:760px){
+     width: 100%;
+      height: 30rem;
+    }
     
     img 
     {
@@ -45,6 +52,9 @@ $fuenteSecundaria :'Anton', sans-serif;
     height: 10rem;
     display: flex;
     justify-content: space-between;
+    @media (max-width:760px){
+     display: none;   
+    }
    
 
 }
@@ -57,6 +67,9 @@ $fuenteSecundaria :'Anton', sans-serif;
     justify-content: space-around;
     margin-top: 3rem;
     padding: 1rem;
+    @media (max-width:760px){
+       display: none;   
+    }
    
    
     a 
@@ -96,6 +109,13 @@ $fuenteSecundaria :'Anton', sans-serif;
     width: 100%;
     height: 40rem;
     display: flex;
+    @media (max-width:760px){
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
     
 
     
@@ -107,6 +127,10 @@ $fuenteSecundaria :'Anton', sans-serif;
         font-family: $fuenteSecundaria;
         text-transform: uppercase;
         text-shadow: 0 0 .2rem #1e1e1e;
+        @media (max-width:760px){
+          font-size: 4rem;
+
+        }
     }
     h1 
     {
@@ -118,6 +142,12 @@ $fuenteSecundaria :'Anton', sans-serif;
     
         width: 15rem;
         height: 15rem;
+        @media (max-width:760px){
+          width: 9rem;
+          height: 9rem;
+          
+          
+        }
     }
 }
 .first_section_container 
@@ -126,6 +156,9 @@ $fuenteSecundaria :'Anton', sans-serif;
     height: 30rem;
     display: flex;
     flex-direction: column;
+    @media (max-width:760px){
+     width: 100%;   
+    }
 }
 .first_section_imagen
 {
@@ -145,12 +178,20 @@ $fuenteSecundaria :'Anton', sans-serif;
     padding-top: 2rem;
     border-bottom: .4rem solid #FF5733;
     border-top: .2rem solid #3d3d3d;
+    @media (max-width:760px){
+     width: 100%;
+     height: auto;
+    }
     h2 
     {
         text-transform: uppercase;
         background-color: #ffffff;
         color:#1e1e1e;
         font-family: 'Montserrat', sans-serif;
+        @media (max-width:760px){
+            font-size: 2rem;
+          
+        }
     }
     span 
     {
@@ -161,6 +202,10 @@ $fuenteSecundaria :'Anton', sans-serif;
     {
         font-family: $fuentePrincipal;
         color: #3d3d3d;
+        @media (max-width:760px){
+         font-size: 1.3rem;
+         text-align: center;
+        }
     }
 }
 
@@ -170,6 +215,11 @@ $fuenteSecundaria :'Anton', sans-serif;
     height:auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    @media (max-width:760px){
+     width: 100%;
+     height: auto;
+     
+    }
     h2 
     {
         font-size: 3rem;
@@ -204,6 +254,11 @@ $fuenteSecundaria :'Anton', sans-serif;
     justify-content: space-around;
     margin-bottom: 4rem;
     margin-top: 4rem;
+    @media (max-width:760px){
+      width: 100%;
+      height: auto;
+      margin-top: 24rem;   
+    }
    
     
     h2 
@@ -223,6 +278,9 @@ $fuenteSecundaria :'Anton', sans-serif;
     flex-direction: column;
     margin-top: 3rem;
     box-shadow:  0 .2rem 2rem #ededed;
+    @media (max-width:760px){
+     width: 100%;   
+    }
 
    
     img 
@@ -240,6 +298,11 @@ $fuenteSecundaria :'Anton', sans-serif;
         font-size: 1rem;
         width: 80%;
         text-align: justify;
+        @media (max-width:760px){
+          font-size: 1rem;
+          width: 100%;
+          margin-left: 0;
+        }
         
 
     }
@@ -264,6 +327,11 @@ $fuenteSecundaria :'Anton', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media(max-width:760px){
+        width: 100%;
+        height: auto;
+        margin-top: -10rem;
+    }
 }
 
 
@@ -272,9 +340,20 @@ $fuenteSecundaria :'Anton', sans-serif;
 {
     display: flex;
     justify-content: center;
+    
+    @media(max-width:760px){
+        width: 10rem;
+        height: 10rem;
+       margin-top: 2rem;
+    }
     img 
     {
         margin-left: -2rem;
+        @media (max-width:760px){
+        margin-left: 1rem;
+        margin-top: -2rem;
+        
+        }
     }
 
     
@@ -283,11 +362,25 @@ $fuenteSecundaria :'Anton', sans-serif;
 {
     width: 100%;
     height: auto;
+    @media (max-width:760px){
+     width: 100%;  
+     height: auto; 
+    }
     h2 
     {
         font-size: 3rem;
         text-align: center;
+        @media (max-width:760px){
+           font-size: 2rem;
         
+        }
+        
+    }
+    button 
+    {
+        @media (max-width:760px){
+          display: none;
+        }
     }
 }
 
@@ -296,11 +389,18 @@ $fuenteSecundaria :'Anton', sans-serif;
     width: 80%;
     height: 30rem;
     margin: 4rem auto;
+    @media (max-width:760px){
+     width: 100%;
+   
+    }
 
 }
 .carousel-inner 
 {
     height: 20rem;
+    @media (max-width:760px){
+     height: 10rem !important;   
+    }
     
 }
 .imagenes_entrenamiento 
@@ -315,6 +415,10 @@ $fuenteSecundaria :'Anton', sans-serif;
     {
         width: 12rem;
         height: 10rem;
+        @media (max-width:760px){
+          width: 6rem;
+          height: 5rem;
+        }
     }
 }
 .dias_entrenamiento
@@ -324,10 +428,27 @@ $fuenteSecundaria :'Anton', sans-serif;
     margin-top: 2rem;
     margin-bottom: 3rem;
     display: flex;
+    padding: 1rem;
     flex-direction: column;
+    @media (max-width:760px){
+     width: 100%;   
+    }
     h3 
     {
         color: #FF5733;
+        @media (max-width:760px){
+         font-size: 1.3rem;
+        }
+    }
+    ion-icon 
+    {
+        color: #92bf24;
+    }
+    h4 
+    {
+        @media (max-width:760px){
+         font-size: 1rem;
+        }
     }
     
 }
@@ -336,10 +457,18 @@ $fuenteSecundaria :'Anton', sans-serif;
     width: 100%;
     height: 30rem;
     margin-top: 3rem;
+    @media (max-width:760px){
+     width: 100%;
+     height: auto;  
+    }
     img 
     {
         width: 90%;
         height: 25rem;
+        @media (max-width:760px){
+         width: 100%;
+         height: 10rem;
+        }
     }
 }
 
@@ -350,6 +479,13 @@ $fuenteSecundaria :'Anton', sans-serif;
     margin-top: 70rem;
     background-color: #1e1e1e;
     padding: 1rem;
+    @media (max-width:760px){
+     width: 100%;
+     text-align: center;
+     margin-top: 40rem;
+     height: auto;
+        
+    }
 
     ion-icon 
     {
@@ -363,12 +499,28 @@ $fuenteSecundaria :'Anton', sans-serif;
         color: #ffffff;
         font-family: $fuentePrincipal;
         text-transform: uppercase;
+        @media (max-width:760px){
+         font-size: 1rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+        }
     }
     h2 
     {
         color: #ffffff;
         font-family: $fuentePrincipal;
         text-transform: uppercase;
+        color: #FF5733;
+        @media (max-width:760px){
+         font-size: 1rem;
+        }
+    }
+    a 
+    {
+        text-decoration: none;
+        color:#92bf24;
+        margin-left: 1rem;
     }
 }
 .templatemo_contacttitle {
@@ -378,6 +530,12 @@ $fuenteSecundaria :'Anton', sans-serif;
     font-weight: bold;
     color: #1e1e1e;
     text-align: center;
+    @media(max-width:760px){
+      width: 100%;
+      margin-top: 5rem;
+      display: flex;
+      margin-left: 6rem;
+    }
 }
 
 .templatemo_sub_contacttitle {
@@ -386,11 +544,19 @@ $fuenteSecundaria :'Anton', sans-serif;
     color:#FF5733;
     text-align: center;
     margin-bottom: 50px;
+    @media(max-width:760px){
+     margin-left: 1rem;
+    }
 }
 
 .templatemo_contact {
     margin: 30px;
     width: 100%;
+    @media(max-width:760px){
+    width: 90%;
+    
+    
+    }
     
 }
 .templatemo_contactform
@@ -399,11 +565,18 @@ $fuenteSecundaria :'Anton', sans-serif;
     padding-bottom: 3rem;
    margin-left: -5rem;
    margin-top: 2rem;
+   @media(max-width:760px){
+      width: 100%;
+      margin-left: .5rem;
+   }
    img 
    {
     width: 10rem;
     height: 10rem;
     margin-left: 16rem;
+    @media(max-width:760px){
+     margin-left: 7rem;
+    }
    }
    p 
    {
@@ -435,5 +608,310 @@ $fuenteSecundaria :'Anton', sans-serif;
 
 .templatemo_contactform .btn-primary:hover {
     background: #a6d82c;
+}
+.header .navegador_movil 
+{
+    display: none;
+    transition: all .4s linear;
+    @media(max-width:760px){
+        display: block;
+        width: 22rem;
+        height: 3rem;
+        margin-left: -1.7rem;
+        margin-top: -10rem;
+        background-color: #282828;
+        h2 
+        {
+            color: #ffffff;
+            font-family: $fuentePrincipal;
+            font-size: 1.8rem;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+.header .navegador_movil:hover > .navegador_movil_links {
+    display: flex;
+}
+.header .navegador_movil .navegador_movil_links 
+{
+    width: 22rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    position: absolute;
+    z-index: 99;
+    line-height: 4rem;
+    display: none;
+    ion-icon 
+    {
+        display: none;
+    }
+    a 
+    {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #FF5733;
+    text-transform: uppercase;
+    transition: all .3s linear;
+    }
+    
+}
+.header .navegador_movil .navegador_movil_links a:hover 
+{
+  background-color: #FF5733;
+  color: #ffffff;
+}
+
+
+/********** contacto ****/
+
+.footer_contacto 
+{
+    width: 100%;
+    height: 10rem;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    @media(max-width:760px){
+        text-align: center;
+        margin-top: -3rem;
+    }
+    ion-icon 
+    {
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+    
+    h3 
+    {
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-family: $fuentePrincipal;
+        text-transform: uppercase;
+        
+    }
+    h2 
+    {
+        color: #ffffff;
+        font-family: $fuentePrincipal;
+        text-transform: uppercase;
+        color: #FF5733;
+        
+    }
+    a 
+    {
+        text-decoration: none;
+        color:#92bf24;
+        margin-left: 1rem;
+    }
+}
+.header_navegador_contacto 
+{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    @media(max-width:760px){
+        display: none;
+    }
+}
+.header_contacto 
+{
+    max-width: 120rem;
+    height:60rem;
+    background-color: #1e1e1e;
+    justify-content: space-between;
+    padding-left:2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    background-image:url('../img/istockphoto-174978843-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    @media(max-width:760px){
+        height: 30rem;
+       overflow: hidden;
+    }
+    
+}
+.navegador_movil_contacto 
+{
+     
+    display: none;
+    background-color: #1e1e1e;
+    height: 2.5rem;
+    margin-top:4.5rem;
+    @media(max-width:760px){
+        display: block;
+        width: 20rem;
+        margin-top: 18rem;
+        
+        position: absolute;
+    }
+
+    h2 
+    {
+        font-size: 2rem;
+    }
+}
+.header_contacto .navegador_movil_contacto:hover > .navegador_movil_links_contacto 
+{
+    display: block;
+}
+.navegador_movil_contacto .navegador_movil_links_contacto 
+{
+   @media(max-width:760px){
+    width: 100%;
+    height: 15rem;
+    margin-top: -1rem;
+    position: absolute;
+    background-color: #1e1e1e;
+    line-height: 3rem;
+    display: none;
+ 
+ 
+    a 
+    {
+        color:#FF5733;
+        text-decoration: none;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: column;
+           align-items: center;
+    }
+    ion-icon 
+    {
+        display: none;
+    }
+   }
+   
+
+
+
+}
+.container_contacto 
+{
+    
+    @media(max-width:760px){
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.contactform
+{
+
+    height: auto;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 3rem auto;
+    h2 
+    {
+        font-family: $fuentePrincipal;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    img 
+    {
+        width: 10rem;
+        height: 10rem;
+        margin: 0 auto;
+       
+    }
+    p 
+    {
+        @media(max-width:760px){
+            font-size: 1rem;
+            width: 80%;
+        }
+    }
+    form 
+    {
+        width: 35rem;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        input
+        {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            height: 2.5rem;
+            border: none;
+            border-bottom: .1rem solid #7e7e7e;
+        }
+        textarea
+        {
+            margin-top: 1rem;
+            margin-bottom: 1rem
+        }
+        
+    }
+}
+.title_central_contacto{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+.title_central_contacto .title_central_imagen_contacto,
+.title_central_contacto .title_central_titulo_contacto 
+{
+    width: 100%;
+    height: 30rem;
+}
+.title_central_contacto .title_central_titulo_contacto
+{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    h1,h2 
+    {
+        font-size: 7rem;
+        color: #ffffff;
+        text-align: center;
+        font-family: $fuenteSecundaria;
+        text-transform: uppercase;
+        text-shadow: 0 0 .2rem #1e1e1e;
+        @media (max-width:760px){
+          font-size: 4rem;
+
+        }
+    }
+    h1
+    {
+        color: orange;
+    }
+
+   
+}
+
+
+.title_central_contacto .title_central_imagen_contacto
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img 
+    {
+        width: 15rem;
+        height: 15rem;
+       margin-top: 3rem;
+       margin-left: 1rem;
+      
+    }
+
+    
 }
 
